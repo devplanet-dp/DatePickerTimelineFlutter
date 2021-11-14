@@ -45,7 +45,7 @@ class DateWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
         Text(new DateFormat("E", locale).format(date).toUpperCase(), // WeekDay
-                  style: dayTextStyle)
+                  style: dayTextStyle),
               Text(date.day.toString(), // Date
                   style: dateTextStyle),
              
